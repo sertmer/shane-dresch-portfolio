@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.nav-tab {
+  font-family: 'Poppins', sans-serif;
+  font-style: thin 100;
+  font-size: 1.5em;
+}

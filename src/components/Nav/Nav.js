@@ -6,10 +6,9 @@ import Stills from '../Stills/Stills';
 export default function Nav() {
   return(
     <nav>
-      <p>nav</p>
-      <Contact /> 
       <Projects />
       <Stills />
+      <Contact /> 
     </nav>
   )
 }

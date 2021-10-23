@@ -2,6 +2,6 @@ import './Stills.css';
 
 export default function Stills() {
   return (
-    <p>stills</p>
+    <p className='nav-tab'>STILLS</p>
   )
 }

@@ -1,7 +1,11 @@
 import './Projects.css';
+import Media from '../Media/Media';
 
 export default function Projects() {
+
   return (
-    <p>Projects</p>
+    <div>
+      <p className='nav-tab'>PROJECTS</p>
+    </div>
   )
 }
