@@ -1,10 +1,12 @@
-
 import './App.css';
+import Header from '../Header/Header';
+import Nav from '../Nav/Nav';
 
 function App() {
   return (
     <div>
-      <p>Shane Dresch</p>
+      <Header />
+      <Nav />
     </div>
   );
 }
