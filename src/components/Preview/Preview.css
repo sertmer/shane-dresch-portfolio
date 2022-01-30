@@ -1,0 +1,12 @@
+.preview-stills-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 10em;
+  width: 1000px;
+}
+
+.still {
+  height: 10vh;
+  margin: 5px;
+}
