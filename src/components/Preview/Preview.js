@@ -2,8 +2,7 @@ import './Preview.css';
 
 
 export default function Preview({title, stills}) {
-  console.log(stills)
-  const images = stills.map(still => <img className='still' src={still} alt={`Still image from ${title} video`}/>)
+  const images = stills.map((still, index) => <img key={index} className='still' src={still} alt={`Still from ${title} video`}/>)
   return(
     <div className='preview-stills-container'>
       {images}

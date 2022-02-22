@@ -5,7 +5,7 @@ import projects from '../../data/projectData';
 export default function Projects() {
   const previews = projects.map(project => {
     return (
-      <Preview title={project.title} stills={project.stills} />
+      <Preview key={project.id} title={project.title} stills={project.stills} />
     )
   })
 

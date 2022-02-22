@@ -1,5 +1,6 @@
 const projects = [
   {
+    id: 1,
     title: 'Southern Illinois University - Imagine',
     videoLink: 'https://youtu.be/KioJs5NrOyc',
     embedLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/KioJs5NrOyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
@@ -11,6 +12,7 @@ const projects = [
     aspectRatio: '16:9'
   },
   {
+    id: 2,
     title: 'Love Liberation - Music in the Moment',
     videoLink: 'https://youtu.be/fziNOkE8NcQ',
     embedLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/fziNOkE8NcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
@@ -22,6 +24,7 @@ const projects = [
     aspectRatio: '16:9'
   },
   {
+    id: 3,
     title: 'Colorado Camping - A Visual Diary',
     videoLink: 'https://youtu.be/vsKdQ-ucwYk',
     embedLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/vsKdQ-ucwYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
@@ -33,6 +36,7 @@ const projects = [
     aspectRatio: '2:35:1'
   },
   {
+    id: 4,
     title: 'Fashion BTS',
     videoLink: 'https://youtu.be/TXFuySt2zEY',
     embedLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/TXFuySt2zEY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
@@ -44,6 +48,7 @@ const projects = [
     aspectRatio: '2:35:1'
   },
   {
+    id: 5,
     title: 'Jackson Safety - All in a Day\'s Work',
     videoLink: 'https://youtu.be/pkIFH6RFvJc',
     embedLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/pkIFH6RFvJc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
@@ -55,6 +60,7 @@ const projects = [
     aspectRatio: '16:9'
   },
   {
+    id: 6,
     title: 'Family Counseling Services - Hope Starts Here',
     videoLink: 'https://youtu.be/sNcPxtpvgeo',
     embedLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/sNcPxtpvgeo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
@@ -66,6 +72,7 @@ const projects = [
     aspectRatio: '2:35:1'
   },
   {
+    id: 7,
     title: 'BC Merchants - Raise Resilient',
     videoLink: 'https://youtu.be/-3wWpooDr_I',
     embedLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/-3wWpooDr_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
@@ -77,6 +84,7 @@ const projects = [
     aspectRatio: '16:9'
   },
   {
+    id: 8,
     title: 'Southern Illinois University - Driven',
     videoLink: 'https://youtu.be/yGxZJefAqkA',
     embedLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/yGxZJefAqkA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
