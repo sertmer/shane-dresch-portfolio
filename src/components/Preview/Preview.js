@@ -1,9 +1,18 @@
 import './Preview.css';
 
 
-export default function Preview({title, stills}) {
-  const images = stills.map((still, index) => <img key={index} className='still' src={still} alt={`Still from ${title} video`}/>)
-  return(
+export default function Preview({ title, stills }) {
+  const images = stills.map((still, index) => {
+    const ratio = still.aspectRatio === '16:9' ? 'normal' : 'wide'
+
+    return (<img
+      key={index}
+      className={`still ${ratio}`}
+      src={still}
+      alt={`Still from ${title} video`}
+    />)
+  })
+  return (
     <div className='preview-stills-container'>
       {images}
     </div>
