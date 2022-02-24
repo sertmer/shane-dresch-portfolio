@@ -3,21 +3,21 @@ import Preview from '../Preview/Preview';
 import projects from '../../data/projectData';
 
 export default function Projects() {
-  const previews = projects.map(project => {
+  const images = projects.map(project => {
     return (
-      <Preview key={project.id} title={project.title} stills={project.stills} />
+      <Preview key={project.id} id={project.id} title={project.title} stills={project.stills} />
     )
   })
 
+
+  
   return (
     <main>
       <p className='nav-tab'>PROJECTS</p>
-      {previews}
+      {images}
     </main>
   )
 }
 
-// Project component renders Preview component
-  // pass stills, title for each project as props to Preview
-// each preview component displays three stills,
-// but the whole container is a link to the individual Project(?) comp
+// if url is /project/id
+// render that project
