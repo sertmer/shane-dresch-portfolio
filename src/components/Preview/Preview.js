@@ -21,7 +21,3 @@ export default function Preview({ id, title, stills }) {
   )
 }
 
-
-// Project component renders Preview component
-// each preview component displays three stills,
-// but the whole container is a link to the individual Project(?) comp

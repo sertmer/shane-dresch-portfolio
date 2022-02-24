@@ -10,3 +10,5 @@ export default function Project({id, title, videoLink, embedLink, stills, aspect
   )
 
 }
+
+//render video

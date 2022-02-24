@@ -32,6 +32,3 @@ function App() {
 }
 
 export default App;
-
-// don't need individual project path, just projects/id
-//id is accessible in

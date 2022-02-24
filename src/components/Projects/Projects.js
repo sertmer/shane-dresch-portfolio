@@ -18,6 +18,3 @@ export default function Projects() {
     </main>
   )
 }
-
-// if url is /project/id
-// render that project
