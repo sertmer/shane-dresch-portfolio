@@ -2,9 +2,8 @@ import './Preview.css';
 import { Link } from 'react-router-dom';
 
 
-export default function Preview({ id, title, stills }) {
+export default function Preview({ ratio, id, title, stills }) {
   const images = stills.map((still, index) => {
-    const ratio = still.aspectRatio === '16:9' ? 'normal' : 'wide'
     return (<img
       key={index}
       className={`still ${ratio}`}
@@ -14,7 +13,7 @@ export default function Preview({ id, title, stills }) {
   })
   return (
     <Link to={`/projects/${id}`}>
-      <div className='preview-stills-container'>
+      <div className={`preview-stills-container ${ratio}`}>
         {images}
       </div>
     </Link>
