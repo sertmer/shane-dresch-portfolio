@@ -1,16 +1,31 @@
-.preview-stills-container {
+.preview-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  height: auto;
-  width: 1000px;
+  justify-content: center;
+  width: 1500px;
+  object-fit: contain;
+}
+
+.stills-container {
+  width: fit-content;
+  object-fit: contain;
 }
 
 .still {
+  display: block;
+  margin: 10px 2px 15px;
+}
+.regular {
   height: 20vh;
-  margin: 50px 2px 5px;
+}
+
+.wide {
+  height: 15.25vh;
 }
 
 p {
-  margin: 0px;
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  font-size: 1.5rem;
 }

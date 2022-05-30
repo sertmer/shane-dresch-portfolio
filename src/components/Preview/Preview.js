@@ -7,21 +7,21 @@ export default function Preview({ ratio, id, title, stills }) {
     const name = index === 1 ? <p>{title}</p> : null;
 
     return (
-    <div>
-    <img
-      key={index}
-      className={`still ${ratio}`}
-      src={still}
-      alt={`Still from ${title} video`}
-    />
-    {name}
-    </div>)
+      <div className='stills-container'>
+        <img
+          key={index}
+          className={`still ${ratio} `}
+          src={still}
+          alt={`Still from ${title} video`}
+        />
+        {name}
+      </div>)
   })
   return (
-    <Link to={`/projects/${id}`}>
-      <div className={`preview-stills-container ${ratio}`}>
-        {images}
-      </div>
+    <Link to={`/projects/${id}`} className='preview-container'>
+
+      {images}
+
     </Link>
   )
 }
