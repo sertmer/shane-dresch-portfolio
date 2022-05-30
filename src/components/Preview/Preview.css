@@ -4,6 +4,11 @@
   justify-content: center;
   width: 1500px;
   object-fit: contain;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-style:oblique;
+  color: black;
+  font-weight: 600;
 }
 
 .stills-container {
