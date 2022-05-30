@@ -8,5 +8,9 @@
 
 .still {
   height: 20vh;
-  margin: 50px 2px 50px;
+  margin: 50px 2px 5px;
+}
+
+p {
+  margin: 0px;
 }

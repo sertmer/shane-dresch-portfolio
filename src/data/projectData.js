@@ -9,7 +9,7 @@ const projects = [
       'https://drive.google.com/uc?export=view&id=1Vwz0zkO4n37m5vtx6NuI-KltZ0u1-xm6',
       'https://drive.google.com/uc?export=view&id=1WbqabbAjrK9cHPlUgEC1dcwoc9tBY_0R'
     ],
-    aspectRatio: '16:9'
+    aspectRatio: 'regular'
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const projects = [
       'https://drive.google.com/uc?export=view&id=1_wggIIXo-4HyhRavShZmbcoOhFj7TU0c',
       'https://drive.google.com/uc?export=view&id=1Dt3WTO2hQn7wR-v8jY5nF8qd3fhXjbLN'
     ],
-    aspectRatio: '16:9'
+    aspectRatio: 'regular'
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const projects = [
       'https://drive.google.com/uc?export=view&id=1mDDRlWz1EPYff_1dQZSCoGG4xfqAXwG-',
       'https://drive.google.com/uc?export=view&id=1O4yC-dSIwSKR2VnGjTutZU1S3-O0ZJqU'
     ],
-    aspectRatio: '2:35:1'
+    aspectRatio: 'wide'
   },
   {
     id: 4,
@@ -45,7 +45,7 @@ const projects = [
       'https://drive.google.com/uc?export=view&id=12vGjZ_DJRJxTHa4Q-HKvz_a3JeFaCIft',
       'https://drive.google.com/uc?export=view&id=1rDMrdmtNOeZ2qlyS1rvOZ6RQywlPGar0'
     ],
-    aspectRatio: '2:35:1'
+    aspectRatio: 'wide'
   },
   {
     id: 5,
@@ -57,7 +57,7 @@ const projects = [
       'https://drive.google.com/uc?export=view&id=1sc18sjGRoj_vdDojaMqLW9H28U_L-Vuj',
       'https://drive.google.com/uc?export=view&id=18piPZS837xhjutA_3svqAsnvPrjAtUBV'
     ],
-    aspectRatio: '16:9'
+    aspectRatio: 'regular'
   },
   {
     id: 6,
@@ -69,7 +69,7 @@ const projects = [
       'https://drive.google.com/uc?export=view&id=1mrq2CfHq2ezKQwAr_dQb7SkZQXtr_B5m',
       'https://drive.google.com/uc?export=view&id=1G2OHrKkE0mR4V9l81VTu-9A0AdERqLr5'
     ],
-    aspectRatio: '2:35:1'
+    aspectRatio: 'wide'
   },
   {
     id: 7,
@@ -81,7 +81,7 @@ const projects = [
       'https://drive.google.com/uc?export=view&id=1J4tIgkJPaQBHXD0otEY_9sIVqIi9d-gH',
       'https://drive.google.com/uc?export=view&id=1AIPFv8bYoaw727q9MnaK7bEe3zvjRyzj'
     ],
-    aspectRatio: '16:9'
+    aspectRatio: 'regular'
   },
   {
     id: 8,
@@ -93,7 +93,7 @@ const projects = [
       'https://drive.google.com/uc?export=view&id=1UZcTTeaj3nNj_ww5SB-sc7qBpuSs9rte',
       'https://drive.google.com/uc?export=view&id=189HHPPHJJR-2Il6i7DFzjpPzSQWYmdXL'
     ],
-    aspectRatio: '16:9'
+    aspectRatio: 'regular'
   },
 ]
 
