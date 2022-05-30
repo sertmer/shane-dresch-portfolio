@@ -1,11 +1,11 @@
 import './Project.css';
 
-export default function Project({id, title, videoLink, embedLink, stills, aspectRatio}) {
-  console.log(id, title)
+export default function Project({ id, title, videoLink, embedLink, stills, aspectRatio }) {
+  console.log(id, title, embedLink)
   return (
     <div>
-      <p>{id}</p>
-      <p>hello</p>
+      <iframe width="1140" height="641" src={embedLink} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>{title}</p>
     </div>
   )
 
