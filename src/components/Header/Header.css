@@ -6,7 +6,13 @@
   font-style:  semi-bold;
   font-size: 5em;
   margin-bottom: 0px;
-  text-decoration: none;
+  text-decoration: none!important;
+  color: black;
+}
+
+.name:hover {
+  border-bottom-color: red;
+  border-bottom-width: 2px;
 }
 
 
@@ -14,7 +20,7 @@ h2 {
   font-style: italic;
   font-size: 1.5  em;
   margin-top: -10px;
-  color: rgb(181, 181, 181);
+  color: black;
 }
 
 header {

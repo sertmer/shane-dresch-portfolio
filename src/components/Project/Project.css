@@ -4,7 +4,7 @@ div {
   align-items: center;
 }
 
-p {
+.project-video-title {
   margin: 10px;
   font-family: 'Poppins', sans-serif;
   font-weight: 800;

@@ -13,7 +13,6 @@ export default function Projects() {
   
   return (
     <main>
-      <p className='nav-tab'>PROJECTS</p>
       {images}
     </main>
   )
