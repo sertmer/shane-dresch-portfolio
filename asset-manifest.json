@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/shane-dresch-portfolio/static/css/main.6b417f1c.chunk.css",
+    "main.js": "/shane-dresch-portfolio/static/js/main.0bdd06bc.chunk.js",
+    "main.js.map": "/shane-dresch-portfolio/static/js/main.0bdd06bc.chunk.js.map",
+    "runtime-main.js": "/shane-dresch-portfolio/static/js/runtime-main.7722dabe.js",
+    "runtime-main.js.map": "/shane-dresch-portfolio/static/js/runtime-main.7722dabe.js.map",
+    "static/js/2.8503571d.chunk.js": "/shane-dresch-portfolio/static/js/2.8503571d.chunk.js",
+    "static/js/2.8503571d.chunk.js.map": "/shane-dresch-portfolio/static/js/2.8503571d.chunk.js.map",
+    "static/js/3.f8c697d0.chunk.js": "/shane-dresch-portfolio/static/js/3.f8c697d0.chunk.js",
+    "static/js/3.f8c697d0.chunk.js.map": "/shane-dresch-portfolio/static/js/3.f8c697d0.chunk.js.map",
+    "index.html": "/shane-dresch-portfolio/index.html",
+    "static/css/main.6b417f1c.chunk.css.map": "/shane-dresch-portfolio/static/css/main.6b417f1c.chunk.css.map",
+    "static/js/2.8503571d.chunk.js.LICENSE.txt": "/shane-dresch-portfolio/static/js/2.8503571d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7722dabe.js",
+    "static/js/2.8503571d.chunk.js",
+    "static/css/main.6b417f1c.chunk.css",
+    "static/js/main.0bdd06bc.chunk.js"
+  ]
+}
