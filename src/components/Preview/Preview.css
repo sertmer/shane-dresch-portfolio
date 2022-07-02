@@ -1,0 +1,36 @@
+.preview-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1500px;
+  object-fit: contain;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-style:oblique;
+  color: black;
+  font-weight: 600;
+}
+
+.stills-container {
+  width: fit-content;
+  object-fit: contain;
+}
+
+.still {
+  display: block;
+  margin: 10px 2px 5px;
+}
+.regular {
+  height: 20vh;
+}
+
+.wide {
+  height: 15.25vh;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  font-size: 1.5rem;
+}
