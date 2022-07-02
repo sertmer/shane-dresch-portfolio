@@ -1,0 +1,30 @@
+.name, h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.name {
+  font-style:  semi-bold;
+  font-size: 5em;
+  margin-bottom: 0px;
+  text-decoration: none!important;
+  color: black;
+}
+
+.name:hover {
+  border-bottom-color: red;
+  border-bottom-width: 2px;
+}
+
+
+h2 {
+  font-style: italic;
+  font-size: 1.75em;
+  margin-top: -10px;
+  color: black;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
