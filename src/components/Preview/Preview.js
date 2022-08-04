@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 export default function Preview({ ratio, id, title, stills }) {
   const images = stills.map((still, index) => {
     const name = index === 1 ? <p>{title}</p> : null;
-
     return (
       <div className='stills-container'>
         <img
