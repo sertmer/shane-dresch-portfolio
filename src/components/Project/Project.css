@@ -10,3 +10,10 @@ div {
   font-weight: 800;
   font-style:oblique;
 }
+
+.credits {
+  font-family: 'Poppins', sans-serif;
+  font-size:1.25em;
+  font-style: oblique;
+  font-weight: 600;
+}
