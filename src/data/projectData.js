@@ -9,7 +9,18 @@ const projects = [
       'https://drive.google.com/uc?export=view&id=1Vwz0zkO4n37m5vtx6NuI-KltZ0u1-xm6',
       'https://drive.google.com/uc?export=view&id=1WbqabbAjrK9cHPlUgEC1dcwoc9tBY_0R'
     ],
-    aspectRatio: 'regular'
+    aspectRatio: 'regular',
+    credits: [
+      'Directed by Andrew Bennett', 
+      'Cinematography: Shane Dresch',
+      'Produced by Amy Powell',
+      'Production Company: Digital Alliance Media',
+      'Agency: Fortress Consulting',
+      '1st AC: Bobby Dalley',
+      'Editor: Shane Dresch',
+      'Colorist: Bobby Dalley',
+      'Drone Operator: Jess Carey'
+    ]
   },
   {
     id: 2,
@@ -21,11 +32,20 @@ const projects = [
       'https://drive.google.com/uc?export=view&id=1_wggIIXo-4HyhRavShZmbcoOhFj7TU0c',
       'https://drive.google.com/uc?export=view&id=1Dt3WTO2hQn7wR-v8jY5nF8qd3fhXjbLN'
     ],
-    aspectRatio: 'regular'
+    aspectRatio: 'regular',
+    credits: [
+      'Directed by Shane Dresch', 
+      'Cinematography by Shane Dresch',
+      'Artist: Nicholas Richard-Thompson',
+      '1st AC: Bobby Dalley',
+      'Editor: Shane Dresch',
+      'Audio Engineer: Danny Delaney',
+      'Colorist: Bobby Dalley'
+    ]
   },
   {
     id: 3,
-    title: 'Colorado Camping - A Visual Diary',
+    title: 'Colorado - A Visual Diary',
     videoLink: 'https://youtu.be/vsKdQ-ucwYk',
     embedLink: 'https://www.youtube.com/embed/vsKdQ-ucwYk',
     stills: [
@@ -33,11 +53,14 @@ const projects = [
       'https://drive.google.com/uc?export=view&id=1mDDRlWz1EPYff_1dQZSCoGG4xfqAXwG-',
       'https://drive.google.com/uc?export=view&id=1O4yC-dSIwSKR2VnGjTutZU1S3-O0ZJqU'
     ],
-    aspectRatio: 'wide'
+    aspectRatio: 'wide',
+    credits: [
+      'Cinematography by Shane Dresch'
+    ]
   },
   {
     id: 4,
-    title: 'Fashion BTS',
+    title: 'Fashion - Fruit Ninja',
     videoLink: 'https://youtu.be/TXFuySt2zEY',
     embedLink: 'https://www.youtube.com/embed/TXFuySt2zEY',
     stills: [
@@ -45,7 +68,13 @@ const projects = [
       'https://drive.google.com/uc?export=view&id=12vGjZ_DJRJxTHa4Q-HKvz_a3JeFaCIft',
       'https://drive.google.com/uc?export=view&id=1rDMrdmtNOeZ2qlyS1rvOZ6RQywlPGar0'
     ],
-    aspectRatio: 'wide'
+    aspectRatio: 'wide',
+    credits: [
+      'Art Direction by Lena Jackson',
+      'Cinematography by Shane Dresch',
+      'H&M by Bridget Canela',
+      'Model: Lena Jackson'
+    ]
   },
   {
     id: 5,
@@ -57,11 +86,22 @@ const projects = [
       'https://drive.google.com/uc?export=view&id=1sc18sjGRoj_vdDojaMqLW9H28U_L-Vuj',
       'https://drive.google.com/uc?export=view&id=18piPZS837xhjutA_3svqAsnvPrjAtUBV'
     ],
-    aspectRatio: 'regular'
+    aspectRatio: 'regular',
+    credits: [
+      'Directed by Andrew Bennett',
+      'Cinematography by Shane Dresch',
+      'Produced by Kenneth Stevenson',
+      'Production Company: Digital Alliance Media',
+      '1st AC: Bobby Dalley',
+      'Editor: Shane Dresch',
+      'Audio Engineer: Danny Delaney',
+      'Score by Sean Sumwalt',
+      'Colorist: Bobby Dalley'
+    ]
   },
   {
     id: 6,
-    title: ' Hope Starts Here',
+    title: 'Family Counseling Service - Hope Starts Here',
     videoLink: 'https://youtu.be/sNcPxtpvgeo',
     embedLink: 'https://www.youtube.com/embed/sNcPxtpvgeo',
     stills: [
@@ -69,7 +109,18 @@ const projects = [
       'https://drive.google.com/uc?export=view&id=1mrq2CfHq2ezKQwAr_dQb7SkZQXtr_B5m',
       'https://drive.google.com/uc?export=view&id=1G2OHrKkE0mR4V9l81VTu-9A0AdERqLr5'
     ],
-    aspectRatio: 'wide'
+    aspectRatio: 'wide',
+    credits: [
+      'Directed by Andrew Bennett',
+      'Cinematography by Shane Dresch',
+      'Produced by Kenneth Stevenson',
+      'Production Company: Digital Alliance Media',
+      '1st AC: Bobby Dalley',
+      'Editor: Shane Dresch',
+      'Audio Engineer: Danny Delaney',
+      'Score by Sean Sumwalt',
+      'Colorist: Bobby Dalley'
+    ]
   },
   {
     id: 7,
@@ -81,7 +132,19 @@ const projects = [
       'https://drive.google.com/uc?export=view&id=1J4tIgkJPaQBHXD0otEY_9sIVqIi9d-gH',
       'https://drive.google.com/uc?export=view&id=1AIPFv8bYoaw727q9MnaK7bEe3zvjRyzj'
     ],
-    aspectRatio: 'regular'
+    aspectRatio: 'regular',
+    credits: [
+      'Directed by Kenneth Stevenson',
+      'Cinematography by Shane Dresch',
+      'Produced by Kenneth Stevenson',
+      'Production Company: Digital Alliance Media',
+      'Cam Op: Bobby Dalley',
+      '1st AC: Bobby Dalley',
+      'Editor: Shane Dresch',
+      'Audio Engineer: Danny Delaney',
+      'Score by Sean Sumwalt',
+      'Colorist: Bobby Dalley'
+    ]
   },
   {
     id: 8,
@@ -93,7 +156,17 @@ const projects = [
       'https://drive.google.com/uc?export=view&id=1UZcTTeaj3nNj_ww5SB-sc7qBpuSs9rte',
       'https://drive.google.com/uc?export=view&id=189HHPPHJJR-2Il6i7DFzjpPzSQWYmdXL'
     ],
-    aspectRatio: 'regular'
+    aspectRatio: 'regular',
+    credits: [
+      'Directed by Andrew Bennett', 
+      'Cinematography: Shane Dresch',
+      'Produced by Amy Powell',
+      'Production Company: Digital Alliance Media',
+      'Agency: Fortress Consulting',
+      '1st AC: Bobby Dalley',
+      'Editor: Shane Dresch',
+      'Colorist: Bobby Dalley'
+    ]
   },
 ]
 
