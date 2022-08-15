@@ -2,11 +2,12 @@
   margin: 10px 1px;
 }
 .regular {
-  height: 20vh;
+  height: 30vh;
 }
 
 .wide {
-  height: 15.25vh;
+  height: 23.25vh;
+  /* margin: 20px 0px; */
 }
 
 p {
@@ -18,7 +19,6 @@ p {
   font-weight: 400;
 }
 
-
 .preview-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -28,5 +28,4 @@ p {
   margin-bottom: 20px;
   text-decoration:  none;
   color: black;
-
 }
