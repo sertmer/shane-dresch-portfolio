@@ -18,3 +18,10 @@ nav {
 .navigation-link-active {
   border-bottom: 5px solid;
 }
+
+@media screen and (max-width: 1800px) {
+
+  .navigation-link {
+    font-size: 2vw;
+  }
+}

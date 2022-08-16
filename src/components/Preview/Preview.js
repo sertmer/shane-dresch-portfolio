@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 
 export default function Preview({ ratio, id, title, stills }) {
   const images = stills.map((still, index) => {
-   
     return (
       <div className='stills-container'>
         <img
@@ -23,14 +22,9 @@ export default function Preview({ ratio, id, title, stills }) {
 
   console.log(titles)
   return (
-    <Link to={`/projects/${id}`} className='preview-container'> 
+    <Link to={`/projects/${id}`} className='preview-container'>
       {images}
       {titles}
-
     </Link>
   )
 }
-
-// name is IN the container, pushing the boxes
-
-// re-add name
