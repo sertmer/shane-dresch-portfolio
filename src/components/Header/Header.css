@@ -4,7 +4,8 @@
 
 .name {
   font-style:  semi-bold;
-  font-size: 5em;
+  /* font-size: 5em; */
+  font-size: 5vw;
   margin-bottom: 0px;
   text-decoration: none!important;
   color: black;
@@ -18,7 +19,7 @@
 
 h2 {
   font-style: italic;
-  font-size: 1.75em;
+  font-size: 2.5vw;
   margin-top: -10px;
   color: black;
 }
