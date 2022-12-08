@@ -53,7 +53,7 @@ const projects = [
       'https://drive.google.com/uc?export=view&id=15MsZjGc01mw_WZRwRk8qyo_0ggiLpqu3',
       'https://drive.google.com/uc?export=view&id=1VzWcuAxJA8aXAvoxhGCLcans5mJTLxva'
     ],
-    aspectRatio: 'wide',
+    aspectRatio: 'regular',
     credits: [
       'Cinematography by Shane Dresch'
     ]
@@ -68,7 +68,7 @@ const projects = [
       'https://drive.google.com/uc?export=view&id=1Xi6fhGlEJett6WfteCQA4Cx3VMUWTn1L',
       'https://drive.google.com/uc?export=view&id=1FKmI4dg5Y_GQrS8bmjLqthaE46v8zIf9'
     ],
-    aspectRatio: 'wide',
+    aspectRatio: 'regular',
     credits: [
       'Art Direction by Lena Jackson',
       'Cinematography by Shane Dresch',
@@ -109,7 +109,7 @@ const projects = [
       'https://drive.google.com/uc?export=view&id=1k_XVAKRwuT0CYEAeDRlGTYCC_87s3EyI',
       'https://drive.google.com/uc?export=view&id=1l47xfM4YbZmijswK5sGxZN8d7CrCQgds'
     ],
-    aspectRatio: 'wide',
+    aspectRatio: 'regular',
     credits: [
       'Directed by Andrew Bennett',
       'Cinematography by Shane Dresch',

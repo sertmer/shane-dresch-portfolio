@@ -1,11 +1,7 @@
 
 .regular {
   height: 30vh;
-}
-
-.wide {
-  height: 23.25vh;
-  margin: 30px 0px 0px;
+  margin: 0px 4px;
 }
 
 p {
