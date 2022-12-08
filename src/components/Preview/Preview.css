@@ -1,6 +1,7 @@
 
 .regular {
-  height: 30vh;
+  height: auto;
+  max-width: 100%;
   margin: 0px 4px;
 }
 
