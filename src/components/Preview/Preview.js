@@ -4,8 +4,6 @@ import { Link } from 'react-router-dom';
 
 export default function Preview({ ratio, id, title, stills }) {
   const images = stills.map((still, index) => {
-    const name = index === 1 ? <p>{title}</p> : null;
-
     return (
       <div className='stills-container'>
         <img
@@ -14,14 +12,19 @@ export default function Preview({ ratio, id, title, stills }) {
           src={still}
           alt={`Still from ${title} video`}
         />
-        {name}
       </div>)
   })
+
+  const titles = stills.map((still, index) => {
+    const projectName = index === 1 ? <p>{title}</p> : null;
+    return projectName
+  })
+
+  console.log(titles)
   return (
     <Link to={`/projects/${id}`} className='preview-container'>
-
       {images}
-
+      {titles}
     </Link>
   )
 }
